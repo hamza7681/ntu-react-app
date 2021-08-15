@@ -1,0 +1,36 @@
+.heading1{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.link3{
+    color: white;
+    text-decoration: none;
+}
+
+.link3:hover{
+    color: #fd3635;
+    transition: 0.5s ease;
+}
+
+#bd1{
+    border-right: 2px solid white;
+}
+
+@media screen and (max-width:768px) {
+   #bd1{
+    border-right: none !important;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+   }
+   .heading1{
+       font-size: 18px !important;
+   }
+   #bd2{
+       padding-top: 10px;
+   }
+   #heading3{
+font-size: 18px !important;
+   }
+}

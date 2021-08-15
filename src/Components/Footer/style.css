@@ -1,0 +1,51 @@
+#fac{
+    color: white;
+}
+#bor{
+    background-color: #fd3635;
+    height: 3px;
+    width: 20%;
+    margin-top: 20px;
+}
+
+#list__pic{
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#list__pic li{
+    margin-bottom: 5px;
+}
+
+#list__pic li a{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+#list__pic li a:hover{
+    color: #fd3635;
+    transition: 0.5s ease;
+}
+
+#icons{
+    background-color: rgb(75, 74, 74);
+    padding: 12px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+#icons a{
+    color: rgb(185, 185, 185);
+}
+
+#icons:hover{
+    background-color: rgb(46, 111, 231);
+}
+
+
+#icons a:hover{
+    color: white;
+}
